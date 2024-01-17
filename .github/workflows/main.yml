@@ -1,0 +1,13 @@
+name: print pr
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: windows
+
+    steps:
+    - run: echo"Hello Sarishti"
+    - name: Myfile
